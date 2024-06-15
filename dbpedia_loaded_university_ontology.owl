@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns2="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Alan_Kadish">
+    <ns2:presidentLabel xml:lang="en">Alan Kadish</ns2:presidentLabel>
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/New_York_Medical_College"/>
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/Touro_University_System"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_Medical_College">
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Edward_C._Halperin"/>
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Doctor_of_Medicine"/>
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Alan_Kadish"/>
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Doctor_of_Medicine"/>
+    <ns2:name xml:lang="en">New York Medical College</ns2:name>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3000</ns2:facultySize>
+    <ns2:abstract xml:lang="en">New York Medical College (NYMC or New York Med) is a private medical school in Valhalla, New York. Founded in 1860, it is a member of the Touro College and University System. NYMC offers advanced degrees through its three schools: the School of Medicine (SOM), the Graduate School of Biomedical Sciences (GSBMS) and the School of Health Sciences and Practice (SHSP). Total enrollment is 1,660 students (including 774 medical students) in addition to 800 residents and clinical fellows. NYMC employs 1,350 full-time faculty members and 1,450 part-time and voluntary faculty. The university has more than 12,000 alumni active in medical practice, healthcare administration, public health, teaching and research. Part of the Touro College and University System since 2011, New York Medical College is located on a shared suburban 600-acre campus with its academic medical center, Westchester Medical Center (WMC) and the Maria Fareri Children's Hospital. Many of NYMC's faculty provide patient care, teach, and conduct research at WMC. New York Medical College's university hospital, Metropolitan Hospital Center, in the Upper East side neighborhood of Yorkville and East Harlem in Manhattan, has been affiliated with NYMC since it was founded in 1875, representing the oldest partnership between a hospital and a private medical school in the United States. Metropolitan is part of the New York City Health and Hospitals Corporation (HHC), the largest municipal hospital and healthcare system in the country. With a network of 20+ affiliated hospitals in New York, New Jersey, Connecticut and West Virginia, NYMC's hospital affiliations include large urban medical centers, small suburban clinics, rural medical centers and high-tech regional tertiary care facilities, where medical students and residents are afforded a wide variety of clinical training opportunities.</ns2:abstract>
+    <ns2:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1660</ns2:numberOfStudents>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns2:isOfType rdf:resource="http://dbpedia.org/resource/Private_university"/>
+    <ns2:isLocatedIn rdf:resource="http://dbpedia.org/resource/New_York_(state)"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd40e1deb293045468a5fffea87f98c41">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellorBirthPlace"/>
+    <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/University_at_Albany,_SUNY">
+    <ns2:abstract xml:lang="en">The State University of New York at Albany, commonly referred to as the University at Albany, UAlbany or SUNY Albany, is a public research university with campuses in Albany, Rensselaer, and Guilderland, New York. Founded in 1844, it is one of the four "university centers" of the State University of New York (SUNY) system. The university enrolls 16,648 students in nine schools and colleges, which offer 50 undergraduate majors and 125 graduate degree programs. The university's academic choices include new and emerging fields in public policy, homeland security, globalization, documentary studies, biotechnology, and informatics. Through the UAlbany and SUNY-wide exchange programs, students have more than 600 study-abroad programs to choose from, as well as government and business internship opportunities in New York's capital and surrounding region. It is classified among "R1: Doctoral Universities – Very high research activity". The research enterprise totaled expenditures of $173 million in fiscal year 2018 and is focused in four areas: social science, public law and policy, life sciences and atmospheric sciences. SUNY Albany offers many cultural benefits, such as a contemporary art museum and the New York State Writers Institute. UAlbany plays a major role in the economic development of the Capital District and New York State.</ns2:abstract>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">456</ns2:facultySize>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">675</ns2:facultySize>
+    <ns2:isOfType rdf:resource="http://dbpedia.org/resource/Public_university"/>
+    <ns2:isLocatedIn rdf:resource="http://dbpedia.org/resource/New_York_(state)"/>
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Deborah_F._Stanley"/>
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Havidán_Rodríguez"/>
+    <ns2:name xml:lang="en">University at Albany, SUNY</ns2:name>
+    <ns2:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16648</ns2:numberOfStudents>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Touro_University_System">
+    <ns2:abstract xml:lang="en">Touro University is a private Jewish university system headquartered in New York City, with branches throughout the United States as well as one each in Germany, Israel and Russia. It was founded by Bernard Lander in 1971 and named for Isaac and Judah Touro. Its main campus in New York City is one of the largest private Jewish universities in the US, the largest Jewish university in the US being Yeshiva University. Touro initially focused on higher education for the Jewish community, but it now serves a diverse population of over 19,000 students across 35 schools. There are many branches of Touro University, including Lander College for Men (an all-male college) and Lander College for Women (a separate all-women's college).</ns2:abstract>
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Alan_Kadish"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns2:isOfType rdf:resource="http://dbpedia.org/resource/Private_university"/>
+    <ns2:isLocatedIn rdf:resource="http://dbpedia.org/resource/New_York_(state)"/>
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Doniel_Lander"/>
+    <ns2:name xml:lang="en">Touro University System</ns2:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#typeLabel">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#TypeOfUniversity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Binghamton_University">
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Harvey_G._Stenger"/>
+    <ns2:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18148</ns2:numberOfStudents>
+    <ns2:name xml:lang="en">Binghamton University</ns2:name>
+    <ns2:isOfType rdf:resource="http://dbpedia.org/resource/Public_university"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">768</ns2:facultySize>
+    <ns2:isLocatedIn rdf:resource="http://dbpedia.org/resource/New_York_(state)"/>
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Deborah_F._Stanley"/>
+    <ns2:abstract xml:lang="en">The State University of New York at Binghamton (Binghamton University or SUNY Binghamton) is a public research university with campuses in Binghamton, Vestal, and Johnson City, New York. It is one of the four university centers in the State University of New York (SUNY) system. As of Fall 2020, 18,128 undergraduate and graduate students attended the university. Since its establishment in 1946, the school has evolved from a small liberal arts college to a large research university. It is classified among "R1: Doctoral Universities – Very high research activity". Binghamton's athletic teams are the Bearcats and they compete in Division I of the National Collegiate Athletic Association (NCAA). The Bearcats are members of the America East Conference.</ns2:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Doctor_of_Medicine">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/New_York_Medical_College"/>
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/State_University_of_New_York_Upstate_Medical_University"/>
+    <ns2:presidentLabel xml:lang="en">Doctor of Medicine</ns2:presidentLabel>
+    <ns2:chancellorName xml:lang="en">Doctor of Medicine</ns2:chancellorName>
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/New_York_Medical_College"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#hasChancellor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Abilene_Christian_University">
+    <ns2:abstract xml:lang="en">Abilene Christian University (ACU) is a private Christian university in Abilene, Texas. It was founded in 1906 as Childers Classical Institute. ACU is one of the largest private universities in the Southwestern United States and has one of the 200 largest university endowments in the United States. Affiliated with Churches of Christ, the university is nationally recognized for excellence in service learning, undergraduate research, and undergraduate teaching.</ns2:abstract>
+    <ns2:isOfType rdf:resource="http://dbpedia.org/resource/Private_university"/>
+    <ns2:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5731</ns2:numberOfStudents>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Phil_Schubert"/>
+    <ns2:name xml:lang="en">Abilene Christian University</ns2:name>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">200</ns2:facultySize>
+    <ns2:isLocatedIn rdf:resource="http://dbpedia.org/resource/Texas"/>
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Royce_Money"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#numberOfStudents">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellorBirthDate">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <rdfs:range rdf:nodeID="Nbd2ecb9671cf45789e0578e10ec67c11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#capitalName">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Texas">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns2:stateName xml:lang="en">Texas</ns2:stateName>
+    <ns2:capitalName xml:lang="en">Austin, Texas</ns2:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#address">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President">
+    <rdfs:subClassOf rdf:nodeID="N87cc4e26dea94242ad131e05f3fa156d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd2ecb9671cf45789e0578e10ec67c11">
+    <owl:unionOf rdf:nodeID="Nbe4b02d179de455c86bab01c740e0abc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#facultySize">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc5f953e67ef84368aa9aaa444b887ea1">
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#numberOfStudents"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Massachusetts">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns2:capitalName xml:lang="en">Boston</ns2:capitalName>
+    <ns2:stateName xml:lang="en">Massachusetts</ns2:stateName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/University_of_Massachusetts_Boston">
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1091</ns2:facultySize>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns2:isOfType rdf:resource="http://dbpedia.org/resource/Public_university"/>
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Marty_Meehan"/>
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Marcelo_Suárez-Orozco"/>
+    <ns2:abstract xml:lang="en">The University of Massachusetts Boston (stylized as UMass Boston) is a public research university in Boston, Massachusetts. It is the only public research university in Boston and the third-largest campus in the five-campus University of Massachusetts system. UMass Boston is the third most diverse university in the United States. While a majority of UMass Boston students are Massachusetts residents, international students and students from other states make up a significant portion of the student body. Founded with a distinct urban mission, UMass Boston has a long history of serving the city of Boston, including numerous partnerships with local community organizations. It is an official member institution of the Coalition of Urban Serving Universities and the Coalition of Urban and Metropolitan Universities. It is classified among "R2: Doctoral Universities – High research activity".</ns2:abstract>
+    <ns2:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">15637</ns2:numberOfStudents>
+    <ns2:name xml:lang="en">University of Massachusetts Boston</ns2:name>
+    <ns2:isLocatedIn rdf:resource="http://dbpedia.org/resource/Massachusetts"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N87cc4e26dea94242ad131e05f3fa156d">
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#presidentLabel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#isLocatedIn">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Doniel_Lander">
+    <ns2:chancellorName xml:lang="en">Doniel Lander</ns2:chancellorName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/Touro_University_System"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/University_of_Michigan–Dearborn">
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">511</ns2:facultySize>
+    <ns2:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8783</ns2:numberOfStudents>
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Domenico_Grasso"/>
+    <ns2:abstract xml:lang="en">The University of Michigan–Dearborn (U of M Dearborn, UM–Dearborn, or UMD) is a public university in Dearborn, Michigan. It is one of the two regional universities operating under the policies of the University of Michigan Board of Regents, the other being the University of Michigan–Flint. UMD is one of the 14 master's universities in the State of Michigan. The university's enrollment is approximately 8,700 students, behind Baker College, ahead of Saginaw Valley State University. The university's four colleges include the College of Arts, Sciences, &amp; Letters, the College of Engineering &amp; Computer Science, the College of Business, and the College of Education, Health, &amp; Human Services. They offer over 100 majors and minors, 43 master's degree programs, and 6 doctoral degree/specialist programs. Located in the Metro Detroit region, UMD is also known for its community engagement within the region. Together with Oakland University, the University of Michigan-Flint, and Wayne State University, UMD is one of the four Coalition of Urban and Metropolitan Universities (CUMU) members in the State of Michigan. Fair Lane, a U.S. National Historic Landmark, is located on the Dearborn campus.</ns2:abstract>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns2:isLocatedIn rdf:resource="http://dbpedia.org/resource/Michigan"/>
+    <ns2:name xml:lang="en">University of Michigan–Dearborn</ns2:name>
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Santa_Ono"/>
+    <ns2:isOfType rdf:resource="http://dbpedia.org/resource/Public_university"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4adf64a100674393b67c848a3cfb8de9">
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#facultySize"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/University_of_North_Texas">
+    <ns2:isOfType rdf:resource="http://dbpedia.org/resource/Public_university"/>
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Michael_R._Williams"/>
+    <ns2:isLocatedIn rdf:resource="http://dbpedia.org/resource/Texas"/>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">382</ns2:facultySize>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">548</ns2:facultySize>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</ns2:facultySize>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">145</ns2:facultySize>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1063</ns2:facultySize>
+    <ns2:abstract xml:lang="en">The University of North Texas (UNT) is a public research university in Denton, Texas. It was founded as a nonsectarian, coeducational, private teachers college in 1890 and was formally adopted by the state 11 years later. UNT is a member of the University of North Texas System, which includes additional universities in Dallas and Fort Worth. UNT also has a location in Frisco. The university consists of 14 colleges and schools, an early admissions math and science academy for exceptional high-school-age students from across the state, the Texas Academy of Mathematics and Science, and a library system that comprises the university core. It is classified among "R1: Doctoral Universities – Very high research activity". According to the National Science Foundation, UNT spent $78.4 million on research and development in 2019.</ns2:abstract>
+    <ns2:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42372</ns2:numberOfStudents>
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Neal_Smatresk"/>
+    <ns2:name xml:lang="en">University of North Texas</ns2:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Deborah_F._Stanley">
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/State_University_of_New_York_Upstate_Medical_University"/>
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/University_at_Albany,_SUNY"/>
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/Binghamton_University"/>
+    <ns2:chancellorName xml:lang="en">Deborah F. Stanley</ns2:chancellorName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns2:chancellorBirthPlace xml:lang="en">Utica, New York, U.S.</ns2:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Marty_Meehan">
+    <ns2:presidentLabel xml:lang="en">Marty Meehan</ns2:presidentLabel>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/University_of_Massachusetts_Boston"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Harvey_G._Stenger">
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/Binghamton_University"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns2:presidentLabel xml:lang="en">Harvey G. Stenger</ns2:presidentLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Nd40e1deb293045468a5fffea87f98c41"/>
+    <rdfs:subClassOf rdf:nodeID="N71364d812b0d4a5aa930339f4fc0e6e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellorName">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0e32caaf9eff49df9744b3b6aa5c190d">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/State_University_of_New_York_Upstate_Medical_University">
+    <ns2:hasChancellor rdf:resource="http://dbpedia.org/resource/Deborah_F._Stanley"/>
+    <ns2:abstract xml:lang="en">The State University of New York Upstate Medical University (SUNY Upstate) is a public medical school in Syracuse, New York. Founded in 1834, Upstate is the 15th oldest medical school in the United States and is the only medical school in Central New York. The university is part of the State University of New York (SUNY) system. SUNY Upstate is an upper-division transfer and doctoral university with degree-granting programs in the Norton College of Medicine (NCOM), College of Health Professions (CHP), College of Graduate Studies (CoGS) and the College of Nursing. As one of 140 academic medical centers in the United States, the serves over 1.8 million people annually. Its facilities include Upstate University Hospital, the region's only Level 1 trauma and burn center; Upstate Community Hospital; Golisano Children's Hospital; Upstate Brain &amp; Spine Center; Upstate Heart and Vascular Center; Upstate Cancer Center; and other satellite sites in Central New York. Part of the SUNY system since 1950, Upstate is located in the heart of downtown Syracuse next to Syracuse University. Many of Upstate's faculty provide patient care, teach, and conduct research at the University Hospital. Upstate provides 10,959 jobs, making it Central New York's largest employer. The university adds more than $2.5 billion to the state economy annually. Nearly 7,900 SUNY Upstate alumni physicians are licensed in the United States and they generate more than $24.8 billion in economic activity and support or employ nearly 132,354 employees.</ns2:abstract>
+    <ns2:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">676</ns2:facultySize>
+    <ns2:name xml:lang="en">State University of New York Upstate Medical University</ns2:name>
+    <ns2:isOfType rdf:resource="http://dbpedia.org/resource/Public_university"/>
+    <ns2:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1528</ns2:numberOfStudents>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns2:isLocatedIn rdf:resource="http://dbpedia.org/resource/New_York_(state)"/>
+    <ns2:hasPresident rdf:resource="http://dbpedia.org/resource/Doctor_of_Medicine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Santa_Ono">
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/University_of_Michigan–Dearborn"/>
+    <ns2:presidentLabel xml:lang="en">Santa Ono</ns2:presidentLabel>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University">
+    <rdfs:subClassOf rdf:nodeID="N4adf64a100674393b67c848a3cfb8de9"/>
+    <rdfs:subClassOf rdf:nodeID="Nefb3fd3c18ec4364baa9874839504466"/>
+    <rdfs:subClassOf rdf:nodeID="Nc5f953e67ef84368aa9aaa444b887ea1"/>
+    <rdfs:subClassOf rdf:nodeID="N006a313680064c9ca5028e4f8649feb0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#hasPresident">
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#isPresidentOf"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N98e120e69a0444be80df014de287df59">
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#stateName"/>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb8f9af1240f44cbb914db37202b2f952">
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#typeLabel"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Havidán_Rodríguez">
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/University_at_Albany,_SUNY"/>
+    <ns2:presidentLabel xml:lang="en">Havidán Rodríguez</ns2:presidentLabel>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Neal_Smatresk">
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/University_of_North_Texas"/>
+    <ns2:presidentLabel xml:lang="en">Neal Smatresk</ns2:presidentLabel>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Royce_Money">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns2:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-07-13</ns2:chancellorBirthDate>
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/Abilene_Christian_University"/>
+    <ns2:chancellorName xml:lang="en">Royce Money</ns2:chancellorName>
+    <ns2:chancellorBirthPlace xml:lang="en">Temple, Texas, U.S.</ns2:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Marcelo_Suárez-Orozco">
+    <ns2:chancellorBirthPlace rdf:resource="http://dbpedia.org/resource/Argentina"/>
+    <ns2:chancellorBirthPlace rdf:resource="http://dbpedia.org/resource/Buenos_Aires"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns2:chancellorName xml:lang="en">Marcelo Suárez-Orozco</ns2:chancellorName>
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/University_of_Massachusetts_Boston"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#stateName">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Phil_Schubert">
+    <ns2:presidentLabel xml:lang="en">Phil Schubert</ns2:presidentLabel>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns2:isPresidentOf rdf:resource="http://dbpedia.org/resource/Abilene_Christian_University"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N006a313680064c9ca5028e4f8649feb0">
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#abstract"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Michigan">
+    <ns2:capitalName xml:lang="en">Lansing</ns2:capitalName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns2:stateName xml:lang="en">Michigan</ns2:stateName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Private_university">
+    <ns2:typeLabel xml:lang="en">Private university</ns2:typeLabel>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#TypeOfUniversity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_(state)">
+    <ns2:capitalName xml:lang="en">Albany, New York</ns2:capitalName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns2:stateName xml:lang="en">New York (state)</ns2:stateName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellorBirthPlace">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nefb3fd3c18ec4364baa9874839504466">
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#name"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#isOfType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#TypeOfUniversity"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#isPresidentOf">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellorOf">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#hasChancellor"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#presidentLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Michael_R._Williams">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/University_of_North_Texas"/>
+    <ns2:chancellorName xml:lang="en">Michael R. Williams</ns2:chancellorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State">
+    <rdfs:subClassOf rdf:nodeID="N98e120e69a0444be80df014de287df59"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N71364d812b0d4a5aa930339f4fc0e6e0">
+    <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellorBirthDate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Public_university">
+    <ns2:typeLabel xml:lang="en">Public university</ns2:typeLabel>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#TypeOfUniversity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Domenico_Grasso">
+    <ns2:chancellorBirthPlace rdf:resource="http://dbpedia.org/resource/Worcester,_Massachusetts"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns2:chancellorName xml:lang="en">Domenico Grasso</ns2:chancellorName>
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/University_of_Michigan–Dearborn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#numberOfSocialMediaFollowers">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbe4b02d179de455c86bab01c740e0abc">
+    <rdf:rest rdf:nodeID="N5163c5f39f034cb68a4f12b89a6735ec"/>
+    <rdf:first rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#TypeOfUniversity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Nb8f9af1240f44cbb914db37202b2f952"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5163c5f39f034cb68a4f12b89a6735ec">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:rest rdf:nodeID="N0e32caaf9eff49df9744b3b6aa5c190d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#abstract">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Edward_C._Halperin">
+    <ns2:chancellorOf rdf:resource="http://dbpedia.org/resource/New_York_Medical_College"/>
+    <ns2:chancellorName xml:lang="en">Edward C. Halperin</ns2:chancellorName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+</rdf:RDF>

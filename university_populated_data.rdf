@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_Pennsylvania">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of Pennsylvania</ns1:name>
+    <ns1:abstract>Known for its business school and medical school.</ns1:abstract>
+    <ns1:address>34th &amp; Spruce Street, Philadelphia, PA, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21706</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Amy_Gutmann"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Vincent_Price"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Pennsylvania"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Ian_Walmsley">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Ian Walmsley</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-03-15</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>London</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_Sydney">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of Sydney</ns1:name>
+    <ns1:abstract>Australia's first university, known for its comprehensive offerings.</ns1:abstract>
+    <ns1:address>Camperdown NSW 2006, Sydney, Australia</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3400</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Mark_Scott"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Anne_Twomey"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/New_South_Wales"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_Chicago">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of Chicago</ns1:name>
+    <ns1:abstract>Known for its rigorous scholarship and diverse academic community.</ns1:abstract>
+    <ns1:address>5801 S Ellis Ave, Chicago, IL, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1650</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Paul_Alivisatos"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Ka_Yee_C._Lee"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Illinois"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_Michigan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of Michigan</ns1:name>
+    <ns1:abstract>Renowned for its research efforts and broad academic curriculum.</ns1:abstract>
+    <ns1:address>500 S State St, Ann Arbor, MI, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">550000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Mark_Schlissel"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Susan_M._Collins"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Michigan"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Mary_C._Boyce">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Mary C. Boyce</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1954-04-25</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>New York</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Mark_Schlissel">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Mark Schlissel</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Amy_Gutmann">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Amy Gutmann</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Cheryl_Regehr">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Cheryl Regehr</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1965-06-30</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Toronto</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/Peking_University">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>Peking University</ns1:name>
+    <ns1:abstract>A major Chinese university located in Beijing.</ns1:abstract>
+    <ns1:address>5 Yiheyuan Rd, Haidian District, Beijing, China</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48200</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2045</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Hao_Ping"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Wang_Bo"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Beijing"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/Imperial_College_London">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>Imperial College London</ns1:name>
+    <ns1:abstract>Specializes in science, engineering, medicine, and business.</ns1:abstract>
+    <ns1:address>Exhibition Rd, South Kensington, London, UK</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">620000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Alice_Gast"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Ian_Walmsley"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/England"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Anne_Twomey">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Anne Twomey</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-11-12</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Sydney</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Vincent_Price">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Vincent Price</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-01-21</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Philadelphia</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Wang_Bo">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Wang Bo</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1960-09-18</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Beijing</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Stephen_J._Toope">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Stephen J. Toope</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Hao_Ping">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Hao Ping</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/Harvard_University">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>Harvard University</ns1:name>
+    <ns1:abstract>An American private Ivy League research university in Cambridge, Massachusetts.</ns1:abstract>
+    <ns1:address>1350 Massachusetts Ave, Cambridge, MA, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2100</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Lawrence_S._Bacow"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Marcia_McNutt"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Massachusetts"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/san_mika">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>san mika</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-11-12</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Tokyo</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Persis_Drell">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Persis Drell</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-05-23</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Pasadena</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_Edinburgh">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of Edinburgh</ns1:name>
+    <ns1:abstract>One of Scotland's most prestigious institutions.</ns1:abstract>
+    <ns1:address>Old College, South Bridge, Edinburgh, UK</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">490000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Peter_Mathieson"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Colm_Harmon"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Scotland"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Michael_Botchan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Michael Botchan</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-03-23</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Berkeley</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Beijing">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>Beijing</ns1:stateName>
+    <ns1:capitalName>Beijing</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_Cambridge">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of Cambridge</ns1:name>
+    <ns1:abstract>An ancient university located in Cambridge, UK.</ns1:abstract>
+    <ns1:address>Trinity Ln, Cambridge, CB2 1TN, UK</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18500</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">700000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1680</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Stephen_J._Toope"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Stephen_Toope"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/England"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_Tokyo">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of Tokyo</ns1:name>
+    <ns1:abstract>A leading research university in Japan, offering a wide range of disciplines.</ns1:abstract>
+    <ns1:address>7-3-1 Hongo, Bunkyo City, Tokyo, Japan</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">480000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Makoto_Gonok"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/san_mika"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Tokyo"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/California_Institute_of_Technology">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>California Institute of Technology</ns1:name>
+    <ns1:abstract>Small but powerful research and teaching institution in Pasadena.</ns1:abstract>
+    <ns1:address>1200 E California Blvd, Pasadena, CA, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Thomas_F._Rosenbaum"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/David_Lee"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/California"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/David_Lee">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>David Lee</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-06-02</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>San Francisco</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/New_York">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>New York</ns1:stateName>
+    <ns1:capitalName>Albany</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Susan_M._Collins">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Susan M. Collins</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-10-01</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Detroit</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Scott_Strobel">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Scott Strobel</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-07-25</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>New Haven</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Sally_Kornbluth">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Sally Kornbluth</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1960-01-15</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>New York</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/L._Rafael_Reif">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>L. Rafael Reif</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/New_South_Wales">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>New South Wales</ns1:stateName>
+    <ns1:capitalName>Sydney</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/Massachusetts_Institute_of_Technology">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>Massachusetts Institute of Technology</ns1:name>
+    <ns1:abstract>Specializes in engineering, technology, and the physical sciences.</ns1:abstract>
+    <ns1:address>77 Massachusetts Ave, Cambridge, MA, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11500</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/L._Rafael_Reif"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Sally_Kornbluth"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Massachusetts"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Peter_Mathieson">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Peter Mathieson</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Scotland">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>Scotland</ns1:stateName>
+    <ns1:capitalName>Edinburgh</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Mark_Scott">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Mark Scott</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/Yale_University">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>Yale University</ns1:name>
+    <ns1:abstract>One of the oldest and most prestigious universities in the USA.</ns1:abstract>
+    <ns1:address>New Haven, CT 06520, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13800</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1450</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Peter_Salovey"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Scott_Strobel"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Connecticut"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/P._M._Jones">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>P. M. Jones</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1950-04-28</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>London</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_Toronto">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of Toronto</ns1:name>
+    <ns1:abstract>One of the foremost research universities in Canada.</ns1:abstract>
+    <ns1:address>27 King's College Cir, Toronto, ON, Canada</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">560000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5400</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Meric_Gertler"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Cheryl_Regehr"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Ontario"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_California,_Berkeley">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of California, Berkeley</ns1:name>
+    <ns1:abstract>Known for its free speech movement and academic freedom.</ns1:abstract>
+    <ns1:address>Berkeley, CA, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Carol_T._Christ"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Michael_Botchan"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/California"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Paul_Alivisatos">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Paul Alivisatos</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Ka_Yee_C._Lee">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Ka Yee C. Lee</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1958-05-17</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Chicago</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/Stanford_University">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>Stanford University</ns1:name>
+    <ns1:abstract>Known for its academic strength, wealth, proximity to Silicon Valley.</ns1:abstract>
+    <ns1:address>450 Serra Mall, Stanford, CA, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1900</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Marc_Tessier-Lavigne"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Persis_Drell"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/California"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Connecticut">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>Connecticut</ns1:stateName>
+    <ns1:capitalName>Hartford</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Stephen_Toope">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Stephen Toope</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1961-02-12</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Vancouver</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/Columbia_University">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>Columbia University</ns1:name>
+    <ns1:abstract>An elite Ivy League university in New York City.</ns1:abstract>
+    <ns1:address>116th St &amp; Broadway, New York, NY, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3740</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Lee_C._Bollinger"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Mary_C._Boyce"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/New_York"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/New_Jersey">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>New Jersey</ns1:stateName>
+    <ns1:capitalName>Trenton</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/England">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>England</ns1:stateName>
+    <ns1:capitalName>London</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/California">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>California</ns1:stateName>
+    <ns1:capitalName>Sacramento</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Michigan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>Michigan</ns1:stateName>
+    <ns1:capitalName>Lansing</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/Princeton_University">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>Princeton University</ns1:name>
+    <ns1:abstract>Distinguished by its commitment to teaching and research.</ns1:abstract>
+    <ns1:address>Princeton, NJ, USA</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8100</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Christopher_L._Eisgruber"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Deborah_Prentice"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/New_Jersey"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Tokyo">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>Tokyo</ns1:stateName>
+    <ns1:capitalName>Fukuoka</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Lawrence_S._Bacow">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Lawrence S. Bacow</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#TypeOfUniversity"/>
+    <ns1:typeLabel>Public</ns1:typeLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Marcia_McNutt">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Marcia McNutt</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1952-02-12</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Santa Monica</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Illinois">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>Illinois</ns1:stateName>
+    <ns1:capitalName>Springfield</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Carol_T._Christ">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Carol T. Christ</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#university/University_of_Oxford">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#University"/>
+    <ns1:name>University of Oxford</ns1:name>
+    <ns1:abstract>A prestigious university in England known for its rigorous scholarship.</ns1:abstract>
+    <ns1:address>1 Wellington Square, Oxford, OX1 2JD, UK</ns1:address>
+    <ns1:numberOfStudents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24000</ns1:numberOfStudents>
+    <ns1:numberOfSocialMediaFollowers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">750000</ns1:numberOfSocialMediaFollowers>
+    <ns1:facultySize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</ns1:facultySize>
+    <ns1:hasPresident rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Louise_Richardson"/>
+    <ns1:hasChancellor rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/P._M._Jones"/>
+    <ns1:isLocatedIn rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/England"/>
+    <ns1:isOfType rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Public"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#type/Private">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#TypeOfUniversity"/>
+    <ns1:typeLabel>Private</ns1:typeLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Christopher_L._Eisgruber">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Christopher L. Eisgruber</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Pennsylvania">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>Pennsylvania</ns1:stateName>
+    <ns1:capitalName>Harrisburg</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Meric_Gertler">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Meric Gertler</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Colm_Harmon">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Colm Harmon</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-05-09</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Dublin</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Thomas_F._Rosenbaum">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Thomas F. Rosenbaum</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Peter_Salovey">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Peter Salovey</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#chancellor/Deborah_Prentice">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#Chancellor"/>
+    <ns1:chancellorName>Deborah Prentice</ns1:chancellorName>
+    <ns1:chancellorBirthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1965-03-28</ns1:chancellorBirthDate>
+    <ns1:chancellorBirthPlace>Atlanta</ns1:chancellorBirthPlace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Ontario">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>Ontario</ns1:stateName>
+    <ns1:capitalName>Toronto</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Makoto_Gonok">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Makoto Gonok</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#state/Massachusetts">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#State"/>
+    <ns1:stateName>Massachusetts</ns1:stateName>
+    <ns1:capitalName>Boston</ns1:capitalName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Marc_Tessier-Lavigne">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Marc Tessier-Lavigne</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Alice_Gast">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Alice Gast</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Louise_Richardson">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Louise Richardson</ns1:presidentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#president/Lee_C._Bollinger">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sunanthakannan/ontologies/2024/3/university-ontology#President"/>
+    <ns1:presidentName>Lee C. Bollinger</ns1:presidentName>
+  </rdf:Description>
+</rdf:RDF>
